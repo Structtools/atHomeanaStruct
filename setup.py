@@ -13,7 +13,7 @@ setup(
     description="Forked version of Anastruct with little fix",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/AndreasNord-ing/atHomeanaStruct",
+    url="https://github.com/Structtools/atHomeanaStruct",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
