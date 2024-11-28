@@ -28,20 +28,7 @@ ss.q_load(-1, 1)
 ss.q_load(-1, 2)
 
 if __name__ == "__main__":
-    import time
-    from copy import deepcopy
-
-    ELEMENT_MAP = deepcopy(ss.element_map)
-    min_ = 1e8
-    n = 25
-    save = True
-
-    for i in range(n):
-        t0 = time.time()
-        ss.solve(verbosity=1)
-        ss.element_map = deepcopy(ELEMENT_MAP)
-        t = time.time() - t0
-        print(t)
-        min_ = min(min_, t)
-
-    print(f"Best of {n} = {min_} s.")
+    ss.solve()
+    ss.show_structure()
+    ss.show_displacement()
+    ss.show_bending_moment()

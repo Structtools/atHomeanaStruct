@@ -2,7 +2,7 @@ import unittest
 
 import numpy as np
 
-from nordanastruct.fem import system as se
+from anastruct.fem import system as se
 
 
 class SimpleTest(unittest.TestCase):

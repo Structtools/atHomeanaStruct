@@ -1,7 +1,7 @@
 import unittest
 
-from nordanastruct.fem import system
-from nordanastruct.sectionbase import section_base
+from anastruct.fem import system
+from anastruct.sectionbase import section_base
 
 
 class SimpleUnitTest(unittest.TestCase):
