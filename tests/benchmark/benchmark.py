@@ -2,7 +2,7 @@ import time
 import subprocess
 import os
 from copy import deepcopy
-from anastruct.fem.examples.ex_8_non_linear_portal import ss
+from nordanastruct.fem.examples.ex_8_non_linear_portal import ss
 
 ELEMENT_MAP = deepcopy(ss.element_map)
 min_ = 1e8

@@ -1,7 +1,7 @@
 import time
 import os
 import subprocess
-from anastruct.fem.system import SystemElements
+from nordanastruct.fem.system import SystemElements
 
 save = True
 min_ = 1e8

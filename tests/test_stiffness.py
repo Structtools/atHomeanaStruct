@@ -1,6 +1,6 @@
 import unittest
 
-from anastruct.fem import system as se
+from nordanastruct.fem import system as se
 
 
 class TestSystemElements(unittest.TestCase):

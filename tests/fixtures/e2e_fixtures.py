@@ -1,19 +1,19 @@
 import pytest
 import numpy as np
-from anastruct import LoadCase, LoadCombination, SystemElements
-from anastruct.fem.examples.ex_8_non_linear_portal import ss as SS_ex8
-from anastruct.fem.examples.ex_7_rotational_spring import ss as SS_ex7
-from anastruct.fem.examples.ex_11 import ss as SS_ex11
-from anastruct.fem.examples.ex_12 import ss as SS_ex12
-from anastruct.fem.examples.ex_13 import ss as SS_ex13
-from anastruct.fem.examples.ex_14 import ss as SS_ex14
-from anastruct.fem.examples.ex_15 import ss as SS_ex15
-from anastruct.fem.examples.ex_16 import ss as SS_ex16
-from anastruct.fem.examples.ex_17_gnl import ss as SS_ex17
-from anastruct.fem.examples.ex_18_discretize import ss as SS_ex18
-from anastruct.fem.examples.ex_19_num_displacements import ss as SS_ex19
-from anastruct.fem.examples.ex_20_insert_node import ss as SS_ex20
-from anastruct.fem.examples.ex_26_deflection import ss as SS_ex26
+from nordanastruct import LoadCase, LoadCombination, SystemElements
+from nordanastruct.fem.examples.ex_8_non_linear_portal import ss as SS_ex8
+from nordanastruct.fem.examples.ex_7_rotational_spring import ss as SS_ex7
+from nordanastruct.fem.examples.ex_11 import ss as SS_ex11
+from nordanastruct.fem.examples.ex_12 import ss as SS_ex12
+from nordanastruct.fem.examples.ex_13 import ss as SS_ex13
+from nordanastruct.fem.examples.ex_14 import ss as SS_ex14
+from nordanastruct.fem.examples.ex_15 import ss as SS_ex15
+from nordanastruct.fem.examples.ex_16 import ss as SS_ex16
+from nordanastruct.fem.examples.ex_17_gnl import ss as SS_ex17
+from nordanastruct.fem.examples.ex_18_discretize import ss as SS_ex18
+from nordanastruct.fem.examples.ex_19_num_displacements import ss as SS_ex19
+from nordanastruct.fem.examples.ex_20_insert_node import ss as SS_ex20
+from nordanastruct.fem.examples.ex_26_deflection import ss as SS_ex26
 
 
 @pytest.fixture

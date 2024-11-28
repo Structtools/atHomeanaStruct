@@ -1,7 +1,7 @@
 import numpy as np
 from pytest import approx, raises
 
-from anastruct import LoadCase, LoadCombination, SystemElements
+from nordanastruct import LoadCase, LoadCombination, SystemElements
 
 from .fixtures.e2e_fixtures import *
 from .utils import pspec_context
